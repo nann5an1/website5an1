@@ -5,12 +5,12 @@ function Home() {
       <div className="relative pt-4 pb-4">
         <div className="p-4 flex justify-end relative">
           <img
-            className="top-12 left-24 w-44 h-44 relative z-10 rounded-full"
+            className="top-12 left-[2/3] w-44 h-44 relative z-10 rounded-full"
             src="/profile.jpg"
             alt=""
           />
-          <div className="absolute top-4 right-0 translate-x-1/2 -translate-y-1/2 w-80 h-80 rounded-full bg-[#aeadff] -z-10"></div>
-          <div className="absolute mt-12 left-0 right-[-160px] w-120 h-80 rounded-full bg-blue-200 -z-20"></div>
+          <div className="absolute top-0 right-24 translate-x-1/2 -translate-y-1/2 w-48 h-48 rounded-full bg-[#aeadff] -z-10"></div>
+          <div className="absolute mt-12 left-0 right-[-160px] w-screen h-80 rounded-full bg-blue-200 -z-20"></div>
         </div>
         <div className='ml-12'>
           <h1 className="text-4xl font-sans font-normal">Hi I'm</h1>
@@ -21,7 +21,7 @@ function Home() {
             />
         </div>
         <div className="absolute top-[400px] left-[-50px] w-24 h-24 rounded-full bg-[#aeadff]"></div>
-        <div className="pt-20 pl-20 ">
+        <div className="flex justify-end pt-20 pl-20 pr-[4rem] mt-8">
           <p className="font-serif text-right text-lg">
             I'm currently diving into C projects at 42 and, in my free time,
             expanding my skills in front-end development. I’m driven by a

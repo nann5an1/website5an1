@@ -9,6 +9,7 @@ import Experience from "./Experience";
 import ExperienceTitle from "./ExperienceTitle";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import Footer from "./Footer";
 // import { ModeToggle } from "@/components/mode-toggle";
 
 // const geistSans = Geist({
@@ -23,14 +24,15 @@ import Contact from "./Contact";
 
 function index() {
   return (
-  <div>
+  <div className="grid grid-cols-1">
       <Home />
-      <TechStack />
       <ExperienceTitle />
       <Experience />
       <Experience />
+      <TechStack />
       <Projects />
       <Contact />
+      <Footer />
       <DockDemo />
   </div>
   );

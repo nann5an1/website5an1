@@ -4,8 +4,8 @@ import { div } from "motion/react-client";
 
 function Experience() {
   return (
-    <div className="mt-16 text-[#e1edff]">
-        <div className="ml-16 size-full max-w-lg items-center justify-center overflow-hidden pt-8 bg-[#2d325e] p-8 mb-4 rounded-2xl">
+    <div className="flex justify-center mt-24 text-[#e1edff]">
+        <div className="ml-[1px] size-full max-w-lg items-center justify-center overflow-hidden bg-[#2d325e] p-4 rounded-2xl">
         <BoxReveal boxColor={"#5046e6"} duration={0.5}>
             <p className="text-[3.5rem] font-semibold">
             Magic UI<span className="text-[#5046e6]">.</span>

@@ -29,11 +29,11 @@ function TechStack() {
 
   return (
     <div className="mt-16 grow">
-        <div className="flex justify-start gap-x-12">
-            <h1 className="text-3xl font-bold font-serif ml-4">TECH STACK</h1>
-            <div className="">something</div>
+        <div className="flex justify-center">
+            <h1 className="text-3xl font-bold font-serif ml-[1.2rem]">TECH STACK</h1>
+            <div className="bg-[#bed8ff] ml-[2px] w-screen h-[2px] mt-[2rem]"></div>
         </div>
-        <div className="relative flex size-full items-center justify-center overflow-hidden ml-16">
+        <div className="relative flex size-full items-center justify-center overflow-hidden p-8">
             <IconCloud images={images} />
         </div>
     </div>

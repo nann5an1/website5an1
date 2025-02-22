@@ -13,11 +13,11 @@ function Projects() {
   return (
     <>
         <div className="flex justify-start gap-x-12 mt-20">
-            <h1 className="text-3xl font-bold font-serif ml-4">PROJECTS</h1>
-            <div className="">something</div>
+            <h1 className="text-3xl font-bold font-serif ml-[1.2rem]">PROJECTS</h1>
+            <div className="bg-[#bed8ff] ml-[5px] w-screen h-[2px] mt-4"></div>
         </div>
-        <div className="mt-16 flex justify-center ml-32">
-            <Carousel className="w-full max-w-xs p-4">
+        <div className="mt-16 flex justify-center">
+            <Carousel className="w-full max-w-[300px] bg-slate-500">
             <CarouselContent>
                 {Array.from({ length: 5 }).map((_, index) => (
                 <CarouselItem key={index}>

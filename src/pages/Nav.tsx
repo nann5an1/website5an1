@@ -10,18 +10,18 @@ export type IconProps = React.HTMLAttributes<SVGElement>;
 
 export default function DockDemo() {
   return (
-    <div className="fixed bottom-8 left-0 w-full p-4 flex justify-center">
+    <div className="fixed bottom-5 left-0 w-screen p-4 flex justify-center">
       <Dock  className="bg-black/80" iconMagnification={60} iconDistance={100}>
         <DockIcon>
           <Icons.home className="size-full" />
         </DockIcon>
-        <DockIcon className="bg-black/10 dark:bg-white/10">
+        <DockIcon >
           <Icons.experience className="size-full" />
         </DockIcon>
-        <DockIcon className="bg-black/10 dark:bg-white/10">
+        <DockIcon>
           <Icons.email className="size-full" />
         </DockIcon>
-        <DockIcon className="bg-black/10 dark:bg-white/10">
+        <DockIcon>
           <Icons.projects className="size-full" />
         </DockIcon>
       </Dock>

@@ -9,7 +9,7 @@ function Home() {
             src="/profile.jpg"
             alt=""
           />
-          <div className="absolute top-0 right-24 translate-x-1/2 -translate-y-1/2 w-48 h-48 rounded-full bg-[#aeadff] -z-10"></div>
+          <div className="absolute top-0 right-[6rem] translate-x-1/2 -translate-y-1/2 w-48 h-48 rounded-full bg-[#aeadff] -z-10"></div>
           <div className="absolute mt-12 left-0 right-[-160px] w-screen h-80 rounded-full bg-blue-200 -z-20"></div>
         </div>
         <div className='ml-12'>

@@ -27,7 +27,7 @@ function index() {
   <div className="grid grid-cols-1">
       <Home />
       <ExperienceTitle />
-      <Experience />
+      <Experience/>
       <Experience />
       <TechStack />
       <Projects />

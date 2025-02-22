@@ -8,7 +8,7 @@ function Experience() {
         <div className="ml-[1px] size-full max-w-lg items-center justify-center overflow-hidden bg-[#2d325e] p-4 rounded-2xl">
         <BoxReveal boxColor={"#5046e6"} duration={0.5}>
             <p className="text-[3.5rem] font-semibold">
-            Magic UI<span className="text-[#5046e6]">.</span>
+            Juno<span className="text-[#5046e6]">.</span>
             </p>
         </BoxReveal>
 

@@ -10,6 +10,7 @@ import ExperienceTitle from "./ExperienceTitle";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import NextSection from "./NextSection";
 // import { ModeToggle } from "@/components/mode-toggle";
 
 // const geistSans = Geist({
@@ -26,11 +27,14 @@ function index() {
   return (
   <div className="grid grid-cols-1">
       <Home />
+      {/* <NextSection /> */}
       <ExperienceTitle />
       <Experience/>
-      <Experience />
+      <Experience/>
+      {/* <NextSection /> */}
       <TechStack />
       <Projects />
+      {/* <NextSection /> */}
       <Contact />
       <Footer />
       <DockDemo />

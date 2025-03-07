@@ -4,9 +4,13 @@ import { div } from "motion/react-client";
 
 function Experience() {
   return (
-    <div className="flex justify-center mt-24 text-[#e1edff]">
-        <div className="ml-[1px] size-full max-w-lg items-center justify-center overflow-hidden bg-[#2d325e] p-4 rounded-2xl">
-        <BoxReveal boxColor={"#5046e6"} duration={0.5}>
+    <div>
+        <div className="xs:mt-[3rem] md:mt-[10rem] absolute left-[-7rem] xs:w-[10rem] xs:h-[5rem] md:w-[10rem] md:h-[20rem] rounded-[3rem] bg-gradient-to-r from-[#cdccff] to-[#aeadff] -z-10">
+            <h3 className="xs:text-[3rem] md:text-[5rem] text-blue-100 font-bold text-end">1</h3>
+        </div>
+        <div className="flex justify-center mt-32 text-[#e1edff]">
+        <div className="ml-[1px] size-full xs:max-w-sm md:max-w-xl lg:max-w-5xl items-center justify-center overflow-hidden bg-[#2d325e] p-4 rounded-2xl">
+        <BoxReveal  boxColor={"#5046e6"} duration={0.5}>
             <p className="text-[3.5rem] font-semibold">
             Juno<span className="text-[#5046e6]">.</span>
             </p>
@@ -38,7 +42,12 @@ function Experience() {
             <Button className="mt-[1.6rem] bg-[#5046e6]">Explore</Button>
         </BoxReveal>
         </div>
+        {/* <div className="absolute left-[-7rem] md:w-[10rem] md:h-[20rem] rounded-[3rem] bg-gradient-to-r from-[#cdccff] to-[#aeadff] -z-10">
+            <h3 className="xs:text-[3rem] md:text-[5rem] text-blue-100 font-bold text-end">1</h3>
+        </div> */}
     </div>
+    </div>
+    
     
   );
 }

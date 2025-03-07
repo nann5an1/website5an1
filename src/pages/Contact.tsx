@@ -14,13 +14,13 @@ import { div } from "motion/react-client";
 
 function Contact() {
   return (
-    <div className="mt-28">
+    <div id="contact" className="mt-28">
       <div className="w-full h-[1px] bg-[#bed8ff]"></div>
       <div className="flex justify-center mt-12">
         <h1 className="text-3xl font-bold font-serif">WORK WITH ME</h1>  
       </div>
       <div className="flex justify-center mt-16 mb-16 ml-[0.5rem] mr-[0.5rem]">
-        <Card className="relative w-[450px] h-[300px] bg-[#291c0a] border-none">
+        <Card className="relative w-[450px] h-[300px] bg-[#393939] border-none">
           <CardHeader>
             <CardTitle className="text-[#b3d2ff]">I would really appreciate any opportunities to work with you.</CardTitle>
             <CardDescription>
@@ -46,7 +46,7 @@ function Contact() {
             </form>
           </CardContent>
           <CardFooter className="flex justify-center ">
-            <Button type="submit" variant="outline" className="bg-[#b3d2ff] text-[#2a2133]">Send</Button>
+            <Button type="submit" variant="outline" className="bg-[#b3d2ff] text-[#020202]">Send</Button>
           </CardFooter>
           <BorderBeam duration={10} size={300} />
       </Card>

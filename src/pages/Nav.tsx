@@ -3,7 +3,7 @@
 import React from "react";
 
 import { Dock, DockIcon } from "@/components/magicui/dock";
-import { img } from "motion/react-client";
+import { a, img } from "motion/react-client";
 import exp from "constants";
 
 export type IconProps = React.HTMLAttributes<SVGElement>;
@@ -19,10 +19,10 @@ export default function DockDemo() {
           <Icons.experience className="size-full" />
         </DockIcon>
         <DockIcon>
-          <Icons.email className="size-full" />
+          <Icons.projects className="size-full" />
         </DockIcon>
         <DockIcon>
-          <Icons.projects className="size-full" />
+          <Icons.email className="size-full" />
         </DockIcon>
       </Dock>
     </div>
@@ -31,15 +31,27 @@ export default function DockDemo() {
 
 const Icons = {
   home: (props: IconProps) => (
-   <img src="home.svg"></img>
+    <a href="#home">
+      <img src="home.svg"></img>
+    </a>
   ),
   experience: (props: IconProps) => (
-    <img src="experience.svg"></img>
+    <a href="#experience">
+      <img src="experience.svg"></img>
+    </a>
+    
   ),
   projects: (props: IconProps) => (
-    <img src="book.svg"></img>
+    <a href="#projects">
+      <img src="book.svg"></img>
+    </a>
+    
   ),
+
   email: (props: IconProps) => (
-    <img src="email.svg"></img>
+    <a href="#contact">
+      <img src="email.svg"></img>
+    </a>
+    
   ),
 };

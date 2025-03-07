@@ -28,7 +28,7 @@ function TechStack() {
   );
 
   return (
-    <div className="mt-16 grow">
+    <div className="mt-[10rem] grow">
         <div className="flex justify-center">
             <h1 className="text-3xl font-bold font-serif ml-[1.2rem]">TECH STACK</h1>
             <div className="bg-[#bed8ff] ml-[2px] w-screen h-[2px] mt-[2rem]"></div>

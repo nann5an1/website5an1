@@ -59,7 +59,7 @@ export default {
 		  screens: {
 			'xxs': {'max': '400px'},
 			'xs': {'max': '500px'},
-			'xsmall': '300px',
+			'rnd': {'max': '770px'},
 		},
   	}
   },

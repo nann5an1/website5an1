@@ -29,8 +29,8 @@ function index() {
       <Home />
       {/* <NextSection /> */}
       <ExperienceTitle />
-      <Experience/>
-      <Experience/>
+      <Experience title="EzRutin" index="1" about="A producitivity app that helps the users boost up daily routine" lang="Next, React, TailWind and FireBase"/>
+      <Experience title="Hackomania 2025" index="2" about="Presented a project on a web-app that helps the users to quit social-media addiction and in hand also supports back the tech community." lang="Next, React, TailWind and FireBase"/>
       {/* <NextSection /> */}
       <TechStack />
       <Projects />

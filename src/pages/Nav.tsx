@@ -2,6 +2,7 @@
 import React from "react";
 import { Dock, DockIcon } from "@/components/magicui/dock";
 export type IconProps = React.HTMLAttributes<SVGElement>;
+import Image from "next/image";
 
 export default function DockDemo() {
   return (
@@ -25,27 +26,28 @@ export default function DockDemo() {
 }
 
 const Icons = {
-  home: (props: IconProps) => (
+  home: (_props: IconProps) => (
     <a href="#home">
-      <img src="home.svg"></img>
+      <Image width={50} height={50} src="home.svg" alt={"home"} />
     </a>
   ),
-  experience: (props: IconProps) => (
+
+  experience: (_props: IconProps) => (
     <a href="#experience">
-      <img src="experience.svg"></img>
+      <Image width={50} height={50} src="experience.svg" alt={"home"} />
     </a>
     
   ),
-  projects: (props: IconProps) => (
+  projects: (_props: IconProps) => (
     <a href="#projects">
-      <img src="book.svg"></img>
+      <Image width={50} height={50} src="book.svg" alt={"home"} />
     </a>
     
   ),
 
-  email: (props: IconProps) => (
+  email: (_props: IconProps) => (
     <a href="#contact">
-      <img src="email.svg"></img>
+      <Image width={50} height={50} src="email.svg" alt={"home"} />
     </a>
     
   ),

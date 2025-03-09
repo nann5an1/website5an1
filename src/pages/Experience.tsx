@@ -1,7 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { BoxReveal } from "@/components/magicui/box-reveal";
-import { div } from "motion/react-client";
-
 
 function Experience ({title, index, about, lang}){
   return (

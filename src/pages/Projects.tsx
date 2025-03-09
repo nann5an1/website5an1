@@ -8,7 +8,6 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
-import { useState } from "react"
 function Projects() {
   const projects = [{
                   title: "Transport SG",
@@ -35,7 +34,6 @@ function Projects() {
                   about: "Portfolio is website where ready-to-use templates could be fetched to create your own portfolio.",
                   link: "https://portfolio-website-omega.vercel.app/",
                   }];
-  const project = ["Transport SG", "ezRutin", "E-Commerce Website", "WebSec", "Portfolio"];
 
   return (
     <div>

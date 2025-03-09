@@ -42,7 +42,7 @@ export function IconCloud({ icons, images }: IconCloudProps) {
   const rotationRef = useRef(rotation);
   const iconCanvasesRef = useRef<HTMLCanvasElement[]>([]);
   const imagesLoadedRef = useRef<boolean[]>([]);
-
+  const [_setRotation] = useState(0); //
   // Create icon canvases once when icons/images change
   useEffect(() => {
     if (!icons && !images) return;

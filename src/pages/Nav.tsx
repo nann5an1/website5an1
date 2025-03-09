@@ -1,11 +1,6 @@
 "use client";
-
 import React from "react";
-
 import { Dock, DockIcon } from "@/components/magicui/dock";
-import { a, img } from "motion/react-client";
-import exp from "constants";
-
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
 export default function DockDemo() {

@@ -3,13 +3,13 @@ import { WordRotate } from "@/components/magicui/word-rotate";
 function Home() {
     return (
       <div id="home" className="relative pt-4 mb-[10rem] bg-gradient-to-b from-blue-200 via-slate-200 -z-20">
-        <div className="p-4 flex justify-end relative">
+        <div className="p-4 flex justify-end relative lg:top-[5rem]">
           <img
-            className="top-12 left-[2/3]rnd:w-[14rem] rnd:h-[14rem] md:w-[25rem] md:h-[25rem]  relative z-10 rounded-full"
+            className="top-12 left-[2/3] rnd:w-[14rem] rnd:h-[14rem] md:w-[21rem] md:h-[21rem] lg:mr-[20rem] z-10 rounded-full"
             src="/profile.jpg"
             alt=""
           />
-          <div className="absolute top-0 xs:right-[4rem] md:right-[8rem] translate-x-1/2 -translate-y-1/2 xs:w-[19rem] xs:h-[19rem] rnd:w-[20rem] rnd:h-[20rem] md:w-[20rem] md:h-[20rem] lg:w-[25rem] lg:h-[25rem] rounded-full bg-[#aeadff] -z-10"></div>
+          <div className="absolute top-0 xs:right-[4rem] md:right-[8rem] translate-x-1/2 -translate-y-1/2 xs:w-[19rem] xs:h-[19rem] rnd:w-[20rem] rnd:h-[20rem] md:w-[20rem] md:h-[20rem] lg:w-[35rem] lg:h-[35rem] rounded-full bg-[#aeadff] -z-10"></div>
           {/* <div className="absolute mt-[8rem] xs:w-[30rem] md:w-[49rem] lg:w-[30rem] lg:h-[30rem] h-[20rem] rounded-full bg-blue-400 -z-20"></div> */}
         </div>
         <div className='xs:ml-[2rem] rnd:ml-[5rem] md:ml-[10rem]'>

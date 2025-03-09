@@ -44,18 +44,18 @@ function Projects() {
             <div className="bg-[#bed8ff] ml-1 w-full h-[2px] mt-4"></div>
         </div>
         <div className="mt-16 flex justify-center px-4 sm:px-6 md:px-8">
-            <Carousel className="w-full xs:max-h-[30rem] xs:max-w-[15rem] sm:max-w-[22rem] md:max-w-[30rem] rnd:max-w-[26rem] lg:max-w-[35rem]">
+            <Carousel className="w-full xs:max-h-[30rem] xs:w-[17.5rem] sm:max-w-[22rem] md:max-w-[30rem] rnd:max-w-[26rem] lg:max-w-[rem]">
               <div className="flex justify-center">
                 <CarouselContent>
                       {Array.from({ length: 5 }).map((_, index) => (
                       <CarouselItem key={index}>
                           <div>
                           <Card className="bg-[#b3d2ff]">
-                              <CardContent className="flex aspect-square justify-start  xs:mb-[4.5rem] xs:p-[2rem] sm:p-[1rem] md:p-[2rem] rnd:p-[5rem] lg:p-[6rem]">
-                              <span className="xs:text-[1.4rem] sm:text-[1.8rem] md:text-[2.2rem] rnd:text-[2.1rem] lg:text-[2.5rem] font-semibold">
+                              <CardContent className="flex aspect-square justify-start  xs:mb-[4.5rem] rnd:p-[2.5rem] rnd:mb-[7rem] lg:p-[6rem]">
+                              <span className="xs:text-[1.4rem] sm:text-[1.8rem] md:text-[2.2rem] rnd:text-[2rem] lg:text-[2.5rem] font-semibold">
                                   <h3>{projects[index].title}</h3>
-                                  <div className="xs:mt-[1rem] sm:mt-[2rem] md:mt-[5rem] text-start sm:text-[18px] md:text-[20px] xs:p-[0.5rem] sm:p-[15px] md:p-[1rem] rnd:p-[1rem] rounded-l font-light">
-                                    <div className="xs:text-[1.2rem] sm:text-[1.5rem] md:text-[1.5rem] rnd:text-[1.5rem]">
+                                  <div className="xs:mt-[1rem] sm:mt-[2rem] md:mt-[5rem] text-start sm:text-[18px] md:text-[20px] xs:p-[1rem] sm:p-[15px] md:p-[1rem] rnd:p-[1rem] rounded-l font-light">
+                                    <div className="xs:text-[1.2rem] sm:text-[1.5rem] md:text-[1.5rem] rnd:text-[1.2rem]">
                                       <p>{projects[index].about}</p>
                                     </div>
                                 </div>

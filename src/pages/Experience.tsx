@@ -10,9 +10,9 @@ function Experience ({title, index, about, lang}){
             <h3 className="xs:text-[3rem] md:text-[5rem] rnd:text-[2.5rem] text-blue-100 font-bold text-end">{index}</h3>
         </div>
         <div className="flex justify-center mt-32 text-[#e1edff]">
-        <div className="ml-[1px] size-full xs:max-w-[10rem] md:max-w-xl rnd:max-w-[30rem] lg:max-w-5xl items-center justify-center overflow-hidden bg-[#2d325e] p-4 rounded-2xl">
+        <div className="ml-[1px] size-full xs:max-w-[10rem] md:max-w-xl rnd:max-w-[30rem] lg:max-w-[52rem] items-center justify-center overflow-hidden bg-[#2d325e] p-4 rounded-2xl">
         <BoxReveal  boxColor={"#5046e6"} duration={0.5}>
-            <p className="xs:text-[2.5rem] rnd:text-[2.5rem] md:text-[3.5rem]  font-semibold">
+            <p className="xs:text-[2.5rem] rnd:text-[2.5rem] md:text-[3rem]  font-semibold">
             <span className="text-[#faf9ff]">{title}</span>
             </p>
             <br />

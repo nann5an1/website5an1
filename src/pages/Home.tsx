@@ -20,10 +20,10 @@ function Home() {
         <div className="absolute top-[45rem] left-[-5rem] xs:w-[10rem] xs:h-[10rem] md:w-[15rem] md:h-[15rem] rnd:w-[12rem] rnd:h-[12rem] rounded-full bg-gradient-to-r from-[#cdccff] to-[#aeadff] -z-10"></div>
         <div className="flex justify-end pt-20 pl-20 pr-[4rem] mt-8">
           <p className="font-serif text-right text-xl md:text-2xl lg:text-3xl">
-            I&apos;m currently diving into C projects at 42 and, in my free time,
-            expanding my skills in front-end development. I&apos;m driven by a
-            curiosity to blend security and front-end, and I&apos;m excited to
-            collaborate with others on innovative and impactful projects.
+          I&apos;m currently diving into C projects at 42 and, in my free time,  
+          expanding my skills in front-end development. I&apos;m driven by a  
+          curiosity to blend security and front-end, and I&apos;m excited to  
+          collaborate with others on innovative and impactful projects.  
           </p>
         </div>
       </div>

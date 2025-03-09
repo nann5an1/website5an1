@@ -26,28 +26,28 @@ export default function DockDemo() {
 }
 
 const Icons = {
-  home: (_props: IconProps) => (
+  home: () => (
     <a href="#home">
-      <Image width={50} height={50} src="home.svg" alt={"home"} />
+      <Image width={50} height={50} src="/home.svg" alt={"home"} />
     </a>
   ),
 
-  experience: (_props: IconProps) => (
+  experience: () => (
     <a href="#experience">
-      <Image width={50} height={50} src="experience.svg" alt={"home"} />
+      <Image width={50} height={50} src="/experience.svg" alt={"experience"} />
     </a>
     
   ),
-  projects: (_props: IconProps) => (
+  projects: () => (
     <a href="#projects">
-      <Image width={50} height={50} src="book.svg" alt={"home"} />
+      <Image width={50} height={50} src="/book.svg" alt={"projects"} />
     </a>
     
   ),
 
-  email: (_props: IconProps) => (
+  email: () => (
     <a href="#contact">
-      <Image width={50} height={50} src="email.svg" alt={"home"} />
+      <Image width={50} height={50} src="/email.svg" alt={"contact"} />
     </a>
     
   ),

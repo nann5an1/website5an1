@@ -50,19 +50,19 @@ function Projects() {
                       {Array.from({ length: 5 }).map((_, index) => (
                       <CarouselItem key={index}>
                           <div>
-                          <Card className="bg-[#b3d2ff]">
+                          <Card className="bg-[#0c1148] transition-colors duration-300 ease-in-out hover:bg-[#3c4493]">
                               <CardContent className="flex aspect-square justify-start  xs:mb-[4.5rem] rnd:p-[2.5rem] rnd:mb-[7rem] lg:p-[6rem]">
-                              <span className="xs:text-[1.4rem] sm:text-[1.8rem] md:text-[2.2rem] rnd:text-[2rem] lg:text-[2.5rem] font-semibold">
+                              <span className="xs:text-[1.4rem] sm:text-[1.8rem] md:text-[2.2rem] rnd:text-[2rem] lg:text-[2.5rem] font-semibold text-[#e1edff]">
                                   <h3>{projects[index].title}</h3>
-                                  <div className="xs:mt-[1rem] sm:mt-[2rem] md:mt-[5rem] text-start sm:text-[18px] md:text-[20px] xs:p-[1rem] sm:p-[15px] md:p-[1rem] rnd:p-[1rem] rounded-l font-light">
+                                  <div className="xs:mt-[1rem] sm:mt-[2rem] md:mt-[5rem] text-start sm:text-[18px] md:text-[20px] xs:p-[1rem] sm:p-[15px] md:p-[1rem] rnd:p-[1rem] rounded-l font-light text-[#e1edff]">
                                     <div className="xs:text-[1.2rem] sm:text-[1.5rem] md:text-[1.5rem] rnd:text-[1.2rem]">
                                       <p>{projects[index].about}</p>
                                     </div>
                                 </div>
                               </span>
                               </CardContent>
-                              <div className="flex justify-end xs:mb-[10px] xs:mr-[10px] sm:mb-[1rem] sm:mr-[1rem] md:mb-[1rem] md:mr-[1rem] rnd:mb-[1rem] rnd:mr-[1rem]">
-                                      <button className="border border-black rounded-full px-3 py-1 sm:px-4 sm:py-2 text-sm sm:text-base p-[10px]">Read More</button>
+                              <div className="flex justify-end xs:mb-[10px] xs:mr-[10px] sm:mb-[1rem] sm:mr-[1rem] md:mb-[1rem] md:mr-[1rem] rnd:mb-[1rem] rnd:mr-[1rem] ">
+                                      <button className="border border-[#e1edff] rounded-full px-3 py-1 sm:px-4 sm:py-2 text-sm sm:text-base p-[10px] text-[#e1edff] active:bg-[#859fd5] active:text-[#0c1148]">Read More</button>
                               </div>
                           </Card>
                           </div>

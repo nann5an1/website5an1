@@ -1,5 +1,4 @@
 import { IconCloud } from "@/components/magicui/icon-cloud";
-import { div } from "motion/react-client";
 
 const slugs = [
   "typescript",
@@ -37,7 +36,6 @@ function TechStack() {
             <IconCloud images={images} />
         </div>
     </div>
-    
   );
 }
 

@@ -34,20 +34,20 @@ const Icons = {
 
   experience: () => (
     <a href="#experience">
-      <Image width={50} height={50} src="/experience.svg" alt={"experience"} />
+      <Image width={50} height={50} src="/Experience.svg" alt={"experience"} />
     </a>
     
   ),
   projects: () => (
     <a href="#projects">
-      <Image width={50} height={50} src="/book.svg" alt={"projects"} />
+      <Image width={50} height={50} src="/Book.svg" alt={"projects"} />
     </a>
     
   ),
 
   email: () => (
     <a href="#contact">
-      <Image width={50} height={50} src="/email.svg" alt={"contact"} />
+      <Image width={50} height={50} src="/Email.svg" alt={"contact"} />
     </a>
     
   ),

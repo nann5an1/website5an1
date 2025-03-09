@@ -42,7 +42,7 @@ function Projects() {
             <div className="bg-[#bed8ff] ml-1 w-full h-[2px] mt-4"></div>
         </div>
         <div className="mt-16 flex justify-center px-4 sm:px-6 md:px-8">
-            <Carousel className="w-full xs:max-h-[30rem] xs:w-[17.5rem] sm:max-w-[22rem] md:max-w-[30rem] rnd:max-w-[26rem] lg:max-w-[rem]">
+            <Carousel className="w-full xs:max-h-[30rem] xs:w-[17.5rem] sm:max-w-[22rem] md:max-w-[30rem] rnd:max-w-[26rem]">
               <div className="flex justify-center">
                 <CarouselContent>
                       {Array.from({ length: 5 }).map((_, index) => (

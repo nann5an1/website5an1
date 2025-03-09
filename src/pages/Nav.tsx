@@ -9,16 +9,16 @@ export default function DockDemo() {
     <div className="fixed bottom-5 left-0 w-screen p-4 flex justify-center">
       <Dock  className="bg-black/80" iconMagnification={60} iconDistance={100}>
         <DockIcon>
-          <Icons.home className="size-full" />
+          <Icons.home />
         </DockIcon>
         <DockIcon >
-          <Icons.experience className="size-full" />
+          <Icons.experience />
         </DockIcon>
         <DockIcon>
-          <Icons.projects className="size-full" />
+          <Icons.projects />
         </DockIcon>
         <DockIcon>
-          <Icons.email className="size-full" />
+          <Icons.email />
         </DockIcon>
       </Dock>
     </div>

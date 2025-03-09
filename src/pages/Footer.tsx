@@ -1,5 +1,3 @@
-
-
 function Footer(){
    return (
     <div className="flex justify-center mt-[4rem]">

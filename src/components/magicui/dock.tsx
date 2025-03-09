@@ -1,5 +1,4 @@
 "use client";
-
 import { cva, type VariantProps } from "class-variance-authority";
 import {
   motion,
@@ -10,7 +9,6 @@ import {
   useTransform,
 } from "motion/react";
 import React, { PropsWithChildren, useRef } from "react";
-
 import { cn } from "@/lib/utils";
 
 export interface DockProps extends VariantProps<typeof dockVariants> {
@@ -20,6 +18,7 @@ export interface DockProps extends VariantProps<typeof dockVariants> {
   iconDistance?: number;
   direction?: "top" | "middle" | "bottom";
   children: React.ReactNode;
+  size?: number;
 }
 
 const DEFAULT_SIZE = 40;
@@ -48,14 +47,13 @@ const Dock = React.forwardRef<HTMLDivElement, DockProps>(
     const renderChildren = () => {
       return React.Children.map(children, (child) => {
         if (React.isValidElement(child) && child.type === DockIcon) {
-          const childProps = child.props as DockIconProps;
           return React.cloneElement(child, {
-            ...childProps,
+            ...child.props,
             mouseX: mouseX,
             size: iconSize,
             magnification: iconMagnification,
             distance: iconDistance,
-          });
+          } as DockIconProps);  // Type assertion to fix the error
         }
         return child;
       });
@@ -139,4 +137,4 @@ const DockIcon = ({
 
 DockIcon.displayName = "DockIcon";
 
-export { Dock, DockIcon, dockVariants };
+export { Dock, DockIcon, dockVariants }
